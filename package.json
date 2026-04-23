@@ -1,0 +1,18 @@
+{
+  "name": "claude-ads",
+  "version": "1.0.0",
+  "description": "Gestao de campanhas Meta Ads via Claude Code — Empurrao Digital",
+  "main": "scripts/meta-campaigns.js",
+  "scripts": {
+    "campanhas": "node scripts/meta-campaigns.js",
+    "metricas": "node scripts/meta-metrics.js",
+    "relatorio": "node scripts/meta-report.js"
+  },
+  "author": "Empurrao Digital",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "facebook-nodejs-business-sdk": "^21.0.0"
+  }
+}

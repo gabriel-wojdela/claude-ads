@@ -1,0 +1,19 @@
+# Credenciais — NUNCA commitar
+.env
+.env.local
+.env.production
+
+# Dependencias
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/settings.json
